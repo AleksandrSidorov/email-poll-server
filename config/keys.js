@@ -1,4 +1,5 @@
 // Use different credentials for Dev or Prod environment.
+console.log('Env is: ', process.env.NODE_ENV);
 if (process.env.NODE_ENV === 'production') {
     // We are in Production environment
     // Return production set of keys
