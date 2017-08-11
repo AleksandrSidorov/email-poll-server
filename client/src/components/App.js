@@ -4,8 +4,8 @@ import { connect } from 'react-redux';
 import * as actions from '../actions';
 
 import Header from './Header';
+import Landing from './Landing';
 
-const Landing = () => <p>Landing</p>
 const SurveyNew = () => <p>New Survey</p>
 const Dashboard = () => <p>Dashboard</p>
 
